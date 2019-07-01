@@ -181,7 +181,7 @@ const Icon = ({color, size = 24, type, children, className, ...props}: IconProps
     <div {...props} className={iconClass}>
       {type ?
         <svg className="sg-icon__svg">
-          <use xlinkHref={iconType} />
+          <use xlinkHref={`#${type}`} />
         </svg> :
         children}
     </div>

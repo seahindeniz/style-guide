@@ -2,7 +2,7 @@ $toplayerBackgroundColor: $white;
 $toplayerMarginTop: 65px;
 $toplayerMarginBottom: rhythm(1);
 $layoutMaxWidth: 1024px;
-
+$sgImagesPath: '../images/';
 $includeHtml: false !default;
 
 @if ($includeHtml) {
